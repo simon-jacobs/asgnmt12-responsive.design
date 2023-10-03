@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aldrich&family=Poppins&family=Source+Sans+3&display=swap" rel="stylesheet">
+    <title>Responsive Design</title>
+</head>
+<body>
+    <header class="nav-bar">
+        <div class="nav-wrapper">
+            <div class="container-flex">
+                <div class="container-logo">
+                    <h2>Head.</h2>
+                </div>
+                <div class="container-nav">
+                    <nav class="nav-list">
+                        <a href="#">Works</a>
+                        <a href="#">Services</a>
+                        <a href="#">Contacts</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="first-section">
+        <div class="section-wrapper">
+            <div class="container-header">
+                <h1>Patagonia</h1>
+            </div>
+            <div class="container-paragraph">   
+                <p>Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus, vitae ullamcor.</p>
+            </div>
+            <div class="container-image">
+                <picture>
+                    <source srcset="images/bitmap617.svg" media="(max-width: 767px)">
+                    <source srcset="images/bitmap256.svg" media="(max-width: 320px)">
+                <img src="images/bitmap.svg" alt="" class="responsive">
+                </picture>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
